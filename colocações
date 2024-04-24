@@ -1,0 +1,12 @@
+//Mostrar as 10primeiras colocações em for 
+#include <stdio.h>
+int main() {
+  int colocações;
+  
+  for(colocações = 1; colocações <= 10; colocações++)
+  {
+    printf("\n %d° colocado", colocações);
+  }
+  
+  return(0);
+}
