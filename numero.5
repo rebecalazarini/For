@@ -1,0 +1,14 @@
+//programa que peça para o usuário digitar um número qualquer porém só termine quando o usuário digitar o número 4
+#include <stdio.h>
+int main() {
+    int numero;
+    printf("Digite um numero: ");
+    scanf("%d", &numero);
+    if ( numero == 4){
+        printf("Você digito o numero 4, o programa vai terminar.");
+    }else{
+        printf("você digitou:%d",numero);
+    }
+    
+    return 0;
+}
